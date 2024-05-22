@@ -40,6 +40,7 @@ public class Sketch extends PApplet {
 
       // Sets the value of the current array index to random
       ArrSnowFlakeY[i] = random(height);
+
     }
 
     // Sets the heart image
@@ -185,6 +186,7 @@ public class Sketch extends PApplet {
         fltPlayerX += 20;
 
       }
+
   }
 
   /**
@@ -204,5 +206,7 @@ public class Sketch extends PApplet {
       blnFasterFall = false;
 
     }
+
   }
+  
 }
